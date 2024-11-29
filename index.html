@@ -1,91 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>sanjay</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-        <h1>hii i'm sanjay Baskaran</h1>
-        <h2>a programmer.</h2>
-        <img class="bottom-cloud"  src="images/cloud.png" alt="cloud image">
-        <img src="images/mountain.png" alt="mountain image">
-    </div>
-    
-    <div class="middle-container">
-        <div class="profile">
-          <img class="my-profile" src="images/sanjay.jpg" alt="sanjay profile picture">
-          <h2>Hello.</h2>
-          <p class="intro">iam a Data Analyst and Data Scientist.</p>
-          <p class="intro">and i love to provide data driven solutions.</p>
-          <p class="intro">currently im persuing my BTech graduation in.</p>
-          <a class="anchor" href="https://www.drmgrarch.ac.in/">@Dr.Mgr.Educational.And.Research.institute</a>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="computer-img" src="https://cdn-icons-png.flaticon.com/512/3037/3037929.png" alt="computer picture">
-            <h3>Python Prgramming</h3>
-            <p>i started learning to code when i was 19 years old inorder to careate my own video game.</p>
-          </div>
-          <div class="skill-row">
-            <img class="chilly-img" src="images/data.jpg" alt="chilly picture">
-            <h3>Data Analysis(Power Bi, SQL)</h3>
-            <p>my best skill is actually in extracting valuable insights from the raw data</p>
-          </div>
-        </div>
-        <hr>
-        <div class="My Projects">
-          <h2>My Projects.</h2>
-          <div class="skill-row">
-            <img class="computer-img" src="images/heart.png" alt="heart disease picture">
-            <h3>Heart Disease Prediction Using Power bi</h3>
-            <p>by taking 302 instance of sample patients i predict whether a patient has heart disease or not by taking key features age, sex, cholesterol level, blood pressure, sugar and predict the patient's level of disese.</p>
-          </div>
-          <div class="skill-row">
-            <img class="chilly-img" src="images/pong2.png" alt="chilly picture">
-            <h3>Pong game Development using Python</h3>
-            <p>This was my first project i've done in my coding journey i used python turtle graphis, and object oriented programming concepts like class, objects, inheritance to create this project</p>
-          </div>
-        </div>
-        <div class="skill-row">
-          <img class="computer-img" src="images/snake.png" alt="chilly picture">
-          <h3>Snake game Development using Python</h3>
-          <p>i used python turtle graphis, and object oriented programming concepts like class, objects, inheritance to create this project, also i set a functionality for high_score</p>
-        </div>
-      </div>
-      <div class="skill-row">
-        <img class="chilly-img" src="images/cargame.png" alt="chilly picture">
-        <h3>escaping from objects game Development using Python</h3>
-        <p>i used python turtle graphis, and object oriented programming concepts like class, objects, inheritance to create this project, also i set a functionality for level up if the turtle succesfully cross the the road without hitted by the object the level will up the game will come to end once the object hit the turtle</p>
-      </div>
-    </div>
-      <hr>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
 
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>if you love to code as much as i do.</h3>
-          <p class="contact-message">contact me.</p>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Sanjay Baskaran</h1>
+            <p>
+                I'm a Data Analyst who loves to create beautiful Dashboards and extract valuable insights
+                for people who want to make a difference in the world.
+            </p>
+            <p>Currently I'm a student of The Dr.MGR.UNIVERSITY, where I'm Persuing BTech in information technology.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
         </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100089324193040">facebook</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.instagram.com/the.name.is_jai/">instagram</a>
-        <p class="end">© SANJAY BASKARAN.</p>
-      </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Big Data</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Engineer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Gym Rat</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/sanjay.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/sanjay2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm SanjayBaskaran,
+                a passionate Data Analyst who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about Data Analytics
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found
+                them useful and informative. If you want to read more of my posts, subscribe
+                to my newsletter where I send
+                weekly
+                updates on web development trends and tips. If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Data Analytics</h3>
+                <p>Extracting insights and trends from structured and unstructured datasets to help businesses make data-driven decisions.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Big Data Analysis</h3>
+                <p>Analyzing and processing large-scale datasets using tools like PySpark to uncover valuable patterns and optimize operations.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Personal Training</h3>
+                <p>Offering tailored training sessions to individuals looking to improve their technical skills in data analysis, visualization, and big data tools.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Employees 1M Big Data Analysis</h4>
+                    <p>Conducting in-depth analysis of over 1 million employee records to identify workforce trends, optimize HR strategies, and improve organizational efficiency.</p>
+                    <a href="https://github.com/sanjaybaskaran1/pyspark-leaarning/blob/03d49fffde91919753bbd4886592d88da3704303/EMPLOYEES%20BIG%20DATA%20ANALYSIS.ipynb"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Heart Disease Analysis And Prediction</h4>
+                    <p>Building predictive models using advanced machine learning algorithms to analyze patient data and forecast the likelihood of heart disease, enabling early intervention and better healthcare outcomes.</p>
+                    <a href="https://github.com/sanjaybaskaran1/heart-disease-prediction.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+    </section>
 
 
-        
-   
-    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
